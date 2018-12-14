@@ -1,4 +1,4 @@
-(function(global) {
+;(function(global) {
   var BtEnum = global.BtEnum;
   var BtService = global.BtService;
 

@@ -1,4 +1,4 @@
-(function(global){
+;(function(global){
   var BtEnum = {
     CONN_DIS: 0,
     CONN_ING: 1,
@@ -32,8 +32,8 @@
 
   global.BtEnum = BtEnum;
   global.BtBaseService = BtBaseService;
-})
-(function(global){
+})(this);
+;(function(global){
   var BtEnum = global.BtEnum;
   var BtBaseService = global.BtBaseService;
   
@@ -112,8 +112,8 @@
   }
 
   global.BtService = new BtService();
-})
-(function(global) {
+})(this);
+;(function(global) {
   var BtEnum = global.BtEnum;
   var BtService = global.BtService;
 

@@ -1,4 +1,4 @@
-(function(global){
+;(function(global){
   var BtEnum = global.BtEnum;
   var BtBaseService = global.BtBaseService;
   
@@ -77,4 +77,4 @@
   }
 
   global.BtService = new BtService();
-})
+})(this);
